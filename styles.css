@@ -178,7 +178,7 @@ main .img img {
   width: 100%;
 }
 
-/* about section  */
+/* about section */  
 
 .about {
   position: relative;
@@ -193,8 +193,11 @@ main .img img {
 }
 
 .about h1 {
-  font-size: 60px;
-  margin-bottom: 4rem;
+  font-size: 30px;
+  margin-left: 290px;
+
+  position: relative;
+  margin-bottom: 10rem;
   text-transform: uppercase;
   letter-spacing: 3px;
 
@@ -214,6 +217,7 @@ main .img img {
 
 .about h3 {
   font-size: 30px;
+  text-align: center;
   color: var(--primary);
   font-weight: 200;
   margin-bottom: -1rem;
@@ -221,6 +225,7 @@ main .img img {
 
 .about p {
   font-size: 25px;
+  margin-left: 110px;
   margin-bottom: 2rem;
   width: 80%;
   color: #e6e6e6;
@@ -255,10 +260,12 @@ main .img img {
 .about .skills h2 {
   text-align: center;
   color: var(--primary);
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: 200;
 }
 
 /* about section  */
+
 
 /* project section  */
 
@@ -286,7 +293,7 @@ main .img img {
 .projects h1.title {
   font-size: 30px;
   margin-left: 150px;
-  
+
   position: relative;
   margin-bottom: 10rem;
   text-transform: uppercase;
@@ -397,6 +404,7 @@ main .img img {
 .overview a:hover {
   transform: scale(1.1);
 }
+
 /* project section  */
 
 /* contact  */
@@ -406,7 +414,7 @@ main .img img {
   display: flex;
   font-size: 2em;
   min-height: 100vh;
-  
+
 }
 
 .contact .container {
@@ -514,6 +522,7 @@ main .img img {
 .contact .footer a:hover {
   transform: scale(1.05);
 }
+
 /* contact  */
 
 .back-top {
@@ -625,6 +634,7 @@ header nav .burger:hover i {
     font-size: 3rem;
     transition: 0.3s ease-in-out;
   }
+
   /* Navbar  */
 
   .container,
@@ -707,6 +717,7 @@ header nav .burger:hover i {
   main h1 {
     font-size: 30px !important;
   }
+
   h3 {
     font-size: 20px !important;
   }
@@ -729,6 +740,7 @@ header nav .burger:hover i {
   .contact {
     min-height: 80vh;
   }
+
   .contact h3 {
     margin-bottom: -1rem;
   }
@@ -759,28 +771,31 @@ header nav .burger:hover i {
 }
 
 .pizza ul li::after {
-  
+
   content: '';
   position: absolute;
   left: 0;
   width: 100%;
   height: 100%;
   background: #222;
-  border-left: 4px solid  ;
+  border-left: 4px solid;
   animation: to-right 3s steps(19) infinite;
 }
 
 @keyframes to-right {
-  40%, 60% {
-      left: calc(100% + 50px);
+
+  40%,
+  60% {
+    left: calc(100% + 50px);
   }
+
   95% {
-      left: 0;
+    left: 0;
   }
 }
 
 @keyframes to-top {
   100% {
-      transform: translateY(-300%);
+    transform: translateY(-300%);
   }
 }
